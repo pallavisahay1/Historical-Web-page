@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto', sans-serif;
+}
+body a {
+    text-decoration: bold;
+  }
+  .header{
+    position: fixed;
+    top: 0px;
+    z-index: 999999;
+    width: 100%;
+    background-color: rgb(65, 65, 65);
+    color: #fff;
+  }
+.container{
+  display: grid;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 2%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 15%;
+    display: flex;
+    align-self: center;
+}
+.logo{
+    width: 220px;
+    cursor: pointer;
+}nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+.logo_area {
+    width: 40%;
+  }
+  .logo_area a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo_area a img {
+    width: 230px;
+  }
+  .logo_area a h1 {
+    color: black;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-left: 15px;
+  }
+.menu_area {
+    width: 100%;
+  }
+  .menu_area ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .menu_area ul li {
+    position: relative;
+    width: 160px;
+    margin: 10px;
+  }
+  .menu_area ul li::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    bottom: -10px;
+    left: 0;
+    transition: 0.5s all ease-in-out;
+  }
+  .menu_area .fa {
+    margin-right: 8px;
+  }
+  .sub-menu-1 {
+    display: none;
+  }
+  .menu_area ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background-color: white;
+    margin-top: 2px;
+    margin-left: 2px;
+  }
+  .menu_area ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin: 5px;
+  }
+  .menu_area ul li:hover .sub-menu-1 ul li {
+    /* width: 2000px; */
+    padding: 10px;
+    text-align: left;
+  }
+  .menu_area ul li:hover {
+    background: white;
+    border-radius: 3px;
+  }
+  .footer{
+    position: fixed;
+    bottom: 0px;
+    z-index: 999999;
+    width: 100%;
+    background-color: rgb(65,65,65);
+    color: #fff;
+  }
+  .menu_area ul li a:hover {
+    color:rgb(23, 148, 75);
+  
+  
+h1{
+    color:#fff;
+    font-size: 60px;
+}
+p{
+    color:#fff;
+    font-size: 22px;
+    line-height: 22px;
+}
+h3{
+    color: #fff;
+    font-size: 40px;
+}
+body{
+     background-color: #000;
+}
